@@ -1,6 +1,7 @@
 body{
-    width: 100%;;
-    padding: 5%;
+    padding: 5px;
+    font-family: 'Poppins';
+
 }
 .nav{
     color:white ;
@@ -13,37 +14,43 @@ body{
 .agri{
     font-size: 25px;
     font-weight: bolder;
+    
 }
 .button{
-    background-color: rgb(227, 70, 13);
+    background-color:#ED661F;
     color: white;
     padding: 10px;
 }
 .nav-btn{
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    
 
 }
 
 div.nav-list li{
     display: inline;
-    padding: 5px;
+    padding: 1em;
 }
-.login-btn{
-    background-color: black;
-    color: white;
-    padding: 5px;
-    border-radius: 0%;
-}
+
 span{
     text-decoration: underline;
-    text-decoration-color: orangered;
+    text-decoration-color: #ED661F;
     text-decoration-thickness: 3px;
+    text-underline-position: under;
+    
 }
+ h1{
+    font-family: inter;
+}
+
 
 .displ-1{
     background-image: url('images/image 1.png');
     background-size: contain;
+    height: 100%;
     padding: 10px;
     display: flex;
     justify-items: space-around;
@@ -62,17 +69,15 @@ span{
     background-color: white;
     font-weight: bold;
     display: flex;
-    position: absolute;
-    right: 10%;
-    top:42%;
-    justify-content: space-between;
+    position: relative;
+    justify-content: space-around;
+    left: 42%;
+    bottom:40px;
     padding: 5px;
     box-shadow: 0px 5px 5px grey;
     width: 50%;
-    
-    
-    
 }
+
 .why{
     display:flex;
     justify-items: space-around;
@@ -80,8 +85,8 @@ span{
 .img-why{
     width: 50%;
 }
+
 .our{
-    display: flex;
-    justify-content: center;
-    
+    display: block;
+    text-align: center;
 }
