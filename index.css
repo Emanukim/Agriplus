@@ -80,3 +80,8 @@ span{
 .img-why{
     width: 50%;
 }
+.our{
+    display: flex;
+    justify-content: center;
+    
+}
