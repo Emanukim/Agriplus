@@ -44,6 +44,7 @@ span{
 .displ-1{
     background-image: url('images/image 1.png');
     background-size: contain;
+    padding: 10px;
     display: flex;
     justify-items: space-around;
 
@@ -58,14 +59,24 @@ span{
     width:90%;
 }
 .displ-2{
-    background-color: aliceblue;
+    background-color: white;
     font-weight: bold;
     display: flex;
-    justify-content: space-around;
-    border:1px solid black ;
+    position: absolute;
+    right: 10%;
+    top:42%;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 0px 5px 5px grey;
+    width: 50%;
     
     
-
     
-
+}
+.why{
+    display:flex;
+    justify-items: space-around;
+}
+.img-why{
+    width: 50%;
 }
