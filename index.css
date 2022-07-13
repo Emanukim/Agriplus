@@ -37,8 +37,9 @@ span{
     text-decoration-thickness: 3px;
 }
 
-.disp-1{
-    background-image: url();
+div.displ-1{
+    background-image: url('images/image 1.png');
+    display: flex;
 
 }
 .buying{
@@ -46,4 +47,14 @@ span{
     font-size: 30px;
     font-weight: bolder;
     font-style: Inter;
+}
+.img-1{
+    max-width: max-content;
+}
+.displ-2{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    
+
 }
