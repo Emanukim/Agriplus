@@ -1,6 +1,7 @@
 body{
     padding: 5px;
     font-family: 'Poppins';
+    width: 90%;
 
 }
 .nav{
@@ -50,8 +51,9 @@ span{
 .displ-1{
     background-image: url('images/image 1.png');
     background-size: contain;
+    /* background-repeat: inherit; */
     height: 100%;
-    padding: 10px;
+    padding: 70px;
     display: flex;
     justify-items: space-around;
 
@@ -72,7 +74,7 @@ span{
     position: relative;
     justify-content: space-around;
     left: 42%;
-    bottom:40px;
+    bottom: 90px;;
     padding: 5px;
     box-shadow: 0px 5px 5px grey;
     width: 50%;
@@ -89,4 +91,13 @@ span{
 .our{
     display: block;
     text-align: center;
+}
+
+.popular{
+    display: flex;
+    justify-content: space-around;
+
+}
+.img-row{
+    width: 80%;
 }
