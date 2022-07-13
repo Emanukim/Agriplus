@@ -1,7 +1,7 @@
 body{
-    padding: 5px;
+    padding: 10px;
     font-family: 'Poppins';
-    width: 90%;
+    width: 100%;
 
 }
 .nav{
@@ -96,6 +96,7 @@ span{
 .popular{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
 }
 .img-row{
