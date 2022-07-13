@@ -1,0 +1,44 @@
+.nav{
+    color:white ;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.agri{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.button{
+    background-color: rgb(227, 70, 13);
+    color: white;
+    padding: 10px;
+}
+
+
+ul.nav-list li{
+    display: inline;
+    padding: 5px;
+}
+.login-btn{
+    background-color: black;
+    color: white;
+    border-radius: 0%;
+}
+span{
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    text-decoration-thickness: 3px;
+}
+
+.disp-1{
+    background-image: url();
+
+}
+.buying{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: Inter;
+}
