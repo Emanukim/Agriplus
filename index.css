@@ -1,3 +1,7 @@
+body{
+    width: 100%;;
+    padding: 5%;
+}
 .nav{
     color:white ;
     background-color: black;
@@ -37,9 +41,11 @@ span{
     text-decoration-thickness: 3px;
 }
 
-div.displ-1{
+.displ-1{
     background-image: url('images/image 1.png');
+    background-size: contain;
     display: flex;
+    justify-items: space-around;
 
 }
 .buying{
@@ -49,12 +55,17 @@ div.displ-1{
     font-style: Inter;
 }
 .img-1{
-    max-width: max-content;
+    width:90%;
 }
 .displ-2{
+    background-color: aliceblue;
+    font-weight: bold;
     display: flex;
-    justify-content: space-between;
-    width: 60%;
+    justify-content: space-around;
+    border:1px solid black ;
+    
+    
+
     
 
 }
