@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins';
-    width: 100%;
+    width: 96%;
+    padding: 1%;
 
 }
 .nav{
@@ -24,7 +25,7 @@ body{
 .nav-btn{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     
 
@@ -157,13 +158,13 @@ hr{
 .black{
     background-color: black;
     color: white;
-    display: block-inline;
+    display: flex;
     justify-content: space-around;
 
 }
 .company{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     
 }
