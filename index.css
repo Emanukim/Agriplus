@@ -104,9 +104,9 @@ span{
 .see{
 
     float: right;
-
-    
+ 
 }
+
 hr{
     width: 100%;
     height: 10px;
@@ -154,6 +154,24 @@ hr{
     padding-left: 2%;
     padding-right: 2%;
 }
-.black-count2{
-    display: inline-block;
+.black{
+    background-color: black;
+    color: white;
+    display: block-inline;
+    justify-content: space-around;
+
+}
+.company{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+#blk{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+
 }
